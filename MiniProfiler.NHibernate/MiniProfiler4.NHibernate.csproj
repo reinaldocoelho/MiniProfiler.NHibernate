@@ -5,6 +5,7 @@
     <PackageId>MiniProfiler4.NHibernate</PackageId>
     <Description>Data component use MiniProfiler4 with NHibernate.</Description>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
