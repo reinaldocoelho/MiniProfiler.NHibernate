@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler.NHibernate", "MiniProfiler.NHibernate\MiniProfiler.NHibernate.csproj", "{820AFF68-9132-4021-8A46-4C2741D725E3}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler4.NHibernate", "MiniProfiler.NHibernate\MiniProfiler4.NHibernate.csproj", "{820AFF68-9132-4021-8A46-4C2741D725E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{459750DF-6EBB-4F54-8BD7-479F336BA81C}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A31908C9-92C6-4429-A751-41D480B17354}
 	EndGlobalSection
 EndGlobal

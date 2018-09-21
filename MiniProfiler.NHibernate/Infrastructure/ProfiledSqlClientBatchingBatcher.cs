@@ -107,7 +107,7 @@ namespace StackExchange.Profiling.NHibernate.Infrastructure
                 {
                     result.CommandTimeout = _defaultTimeout;
                 }
-                catch {}
+                catch { }
             }
 
             return result;

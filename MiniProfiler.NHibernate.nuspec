@@ -2,16 +2,16 @@
 <package>
   <metadata>
     <id>
-      MiniProfiler.NHibernate
+      MiniProfiler4.NHibernate
     </id>
     <version>
-      2.1.0.0
+      1.0.0.0
     </version>
     <authors>
-      mdaviesnet
+      mdaviesnet, reinaldocoelho
     </authors>
     <description>
-      NHibernate drivers to support integration with MiniProfiler.
+      NHibernate drivers to support integration with MiniProfiler4.
     </description>
     <projectUrl>
       https://github.com/MattDavies/MiniProfiler.NHibernate
@@ -26,12 +26,17 @@
       en-US 
     </language>
     <dependencies>
-	  <dependency id="MiniProfiler" version="2.1.0" />
-      <dependency id="NHibernate" version="3.2.0.4000" />
+      <dependency id="MiniProfiler" version="4.0.138" />
+      <dependency id="MiniProfiler.Shared" version="4.0.138" />
+      <dependency id="NHibernate" version="3.3.3.4001" />
+      <dependency id="Iesi.Collections" version="3.2.0.4000" />
+      <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.0.0" />
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+      <dependency id="System.Diagnostics.DiagnosticSource" version="4.4.1" />      
     </dependencies>
   </metadata>
   <files>
-    <file src="MiniProfiler.NHibernate\bin\Release\StackExchange.Profiling.NHibernate.dll" target="lib\NET40" />
-    <file src="MiniProfiler.NHibernate\bin\Release\StackExchange.Profiling.NHibernate.pdb" target="lib\NET40" />
+    <file src="MiniProfiler.NHibernate\bin\Release\StackExchange.Profiling.NHibernate.dll" target="lib\net461" />
+    <file src="MiniProfiler.NHibernate\bin\Release\StackExchange.Profiling.NHibernate.pdb" target="lib\net461" />
   </files>
 </package>

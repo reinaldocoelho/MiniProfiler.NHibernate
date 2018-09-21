@@ -19,9 +19,7 @@ namespace StackExchange.Profiling.NHibernate.Drivers
             return command;
         }
 
-        Type IEmbeddedBatcherFactoryProvider.BatcherFactoryClass
-        {
-            get { return typeof(ProfiledSqlClientBatchingBatcherFactory); }
-        }
+        Type IEmbeddedBatcherFactoryProvider.BatcherFactoryClass 
+            => typeof(ProfiledSqlClientBatchingBatcherFactory);
     }
 }
